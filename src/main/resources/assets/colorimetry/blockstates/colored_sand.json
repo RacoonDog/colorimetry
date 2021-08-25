@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "colorimetry:block/colored_sand"
+      },
+      {
+        "model": "colorimetry:block/colored_sand",
+        "y": 90
+      },
+      {
+        "model": "colorimetry:block/colored_sand",
+        "y": 180
+      },
+      {
+        "model": "colorimetry:block/colored_sand",
+        "y": 270
+      }
+    ]
+  }
+}

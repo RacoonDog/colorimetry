@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "colorimetry",
+  "version": "${version}",
+  "name": "Colorimetry",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/colorimetry/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.racoondog.colorimetry.client.ColorimetryClient"
+    ],
+    "main": [
+      "io.github.racoondog.colorimetry.Colorimetry"
+    ]
+  },
+  "mixins": [
+    "colorimetry.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
