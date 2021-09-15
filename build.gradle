@@ -32,8 +32,10 @@ dependencies {
     // You may need to force-disable transitiveness on them.
 
     modImplementation("net.devtech:arrp:0.4.4")
+    include("net.devtech:arrp:0.4.4")
 
-    modApi("me.shedaniel.cloth:basic-math:${project.clothbasicmath_version}")
+    modImplementation("me.shedaniel.cloth:basic-math:${project.clothbasicmath_version}")
+    include("me.shedaniel.cloth:basic-math:${project.clothbasicmath_version}")
 }
 
 processResources {
