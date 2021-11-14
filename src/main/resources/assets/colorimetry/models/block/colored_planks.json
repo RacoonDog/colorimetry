@@ -1,0 +1,6 @@
+{
+  "parent": "colorimetry:block/colored_block",
+  "textures": {
+    "all": "minecraft:block/oak_planks"
+  }
+}

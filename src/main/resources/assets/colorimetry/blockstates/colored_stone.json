@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "colorimetry:block/colored_stone"
+      },
+      {
+        "model": "colorimetry:block/colored_stone",
+        "y": 90
+      },
+      {
+        "model": "colorimetry:block/colored_stone",
+        "y": 180
+      },
+      {
+        "model": "colorimetry:block/colored_stone",
+        "y": 270
+      }
+    ]
+  }
+}

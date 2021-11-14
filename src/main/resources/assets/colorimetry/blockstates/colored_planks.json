@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "colorimetry:block/colored_planks"
+      },
+      {
+        "model": "colorimetry:block/colored_planks",
+        "y": 90
+      },
+      {
+        "model": "colorimetry:block/colored_planks",
+        "y": 180
+      },
+      {
+        "model": "colorimetry:block/colored_planks",
+        "y": 270
+      }
+    ]
+  }
+}

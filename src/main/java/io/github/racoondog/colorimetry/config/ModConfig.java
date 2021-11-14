@@ -7,4 +7,6 @@ import me.shedaniel.autoconfig.annotation.Config;
 @Config(name = Colorimetry.modID)
 public class ModConfig implements ConfigData {
     public int sandColors = 16;
+    public int stoneColors = 16;
+    public int plankColors = 16;
 }
